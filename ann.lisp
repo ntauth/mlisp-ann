@@ -5,8 +5,12 @@
 ;;;;
 
 ;;; Sigmoid function
-(defun sigmoid (x)
-  (/ 1 (+ 1 (exp (- x)))))
+(defun sigmoid (a)
+  (/ 1 (+ 1 (exp (- a)))))
+
+;;; ReLU function
+(defun relu (a)
+  (max 0 a))
 
 ;;; Dot product
 (defun dot (w v)
