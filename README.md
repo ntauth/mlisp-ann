@@ -1,2 +1,2 @@
-# mlisp-neural-net
-Simple neural network library for Common Lisp
+# mlisp-ann
+Simple Artificial Neural Network library for Common Lisp
